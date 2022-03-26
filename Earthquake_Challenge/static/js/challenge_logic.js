@@ -103,7 +103,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   L.geoJson(data, {
     	// We turn each feature into a circleMarker on the map.
     	pointToLayer: function(feature, latlng) {
-      		console.log(data);
+      		// console.log(data);
       		return L.circleMarker(latlng);
         },
       // We set the style for each circleMarker using our styleInfo function.
@@ -205,11 +205,11 @@ legend.addTo(map);
 
 
   // 3. Use d3.json to make a call to get our Tectonic Plate geoJSON data.
-let tectonicdata = "https://raw.github.com/fraxen/tectonicplates/blob/339b0c56563c118307b1f4542703047f5f698fae/GeoJSON/PB2002_boundaries.json"
-d3.json(tectonicdata).then(function(data) {
-  console.log(data); 
+let tectonicdata = "https://raw.githubusercontent.com/fraxen/tectonicplates/339b0c56563c118307b1f4542703047f5f698fae/GeoJSON/PB2002_boundaries.json"
+d3.json(tectonicdata).then(function(data){
+  console.log(data);
   L.geoJson(data, {
     style: {color: "#703606", weight: 3},
-    }).addTo(tectonicPlates);
-    tectonicPlates.addTo(map); 
+  }).addTo(tectonicPlates);
+  tectonicPlates.addTo(map);
 });
