@@ -9,8 +9,6 @@ Module 13: Mapping Earthquakes with JS &amp; APIs
 - Approach
     - Use the JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data. 
     - Then use the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data.
-###### Resources
-.csv
 ###### Results
 -
 -
