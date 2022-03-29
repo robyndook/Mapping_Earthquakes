@@ -11,9 +11,6 @@ Module 13: Mapping Earthquakes with JS &amp; APIs
     - Then use the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data.
 ###### Results
 
-###### WebPage [Mapping Earthquakes](https://robyndook.github.io/Mapping_Earthquakes/)
-
-
 ![Light Map](https://github.com/robyndook/Mapping_Earthquakes/blob/b455ac0bafe25332f65ce0628ac27610b7555bc5/Images/2022-03-28_14-16-46.jpg)
 
 ![Dark Map](https://github.com/robyndook/Mapping_Earthquakes/blob/b455ac0bafe25332f65ce0628ac27610b7555bc5/Images/2022-03-28_14-17-59.jpg)
